@@ -8,4 +8,3 @@ for i in range(1, 7):
     soma += numero
 
 print(f"\nSoma dos números pares: {soma}.")
-    

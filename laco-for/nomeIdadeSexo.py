@@ -25,7 +25,6 @@ for i in range(1, 5):
         if idade < 20:
             quantidade += 1
 
-
 print(f"Média de idade do grupo: {media / 4}.")
 print(f"O nome do homem mais velho é {homem.title()} com {maior} anos.")
 print(f"A quantidade de mulheres com menos de 20 anos é {quantidade}.")
