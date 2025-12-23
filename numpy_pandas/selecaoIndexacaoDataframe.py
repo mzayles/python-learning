@@ -51,7 +51,7 @@ df[df > 1000].fillna("-")
 # vendas maiores que 1000 em janeiro, março e maio
 df[df > 1000][0:3]
 
-# vendas maiores que 1000 nos dia 1 ao 5 de todos os meses
+# vendas maiores que 1000 nos dias 1 ao 5 de todos os meses
 df[df > 1000][:][[1, 2, 3, 4, 5]].fillna("-")
 
 # seleção com mais de uma condição
